@@ -1,0 +1,116 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+nav li
+{
+    list-style-type: none;
+}
+nav img
+{
+    width: 25%;
+}
+nav
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav #menu{
+    width: 35px;
+}
+nav #logo{
+width: 85px;
+}
+main{
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: calc(100vh - 88.25px);
+    border-radius: 20px;
+}
+main h1{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 32px;
+    text-align: center;
+    color:#4F46E5;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+input{
+    border: 1px solid #CBD5E1;
+    border-radius: 123px;
+    height: 28px;
+    border-color: #4F46E5;
+    margin-bottom: 23px;
+}
+
+@keyframes glowing{
+    from{
+        box-shadow: 0px 0px 0px 0px #4F46E5;
+    }
+    to{
+        box-shadow: 0px 2.5px 15px 0px #4F46E5;
+    }
+}
+input:focus{
+    outline: none;
+    animation-name: glowing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+label{
+    margin-bottom: 8px;
+}
+button{
+    width: 30vw;
+    margin: auto;
+    height: 36px;
+    width: Hug (180px)px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 1234px;
+    background-color: #FFFFFF;
+    border: 1px solid #4F46E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    color: #4F46E5;
+}
+@keyframes color_changing{
+    from{
+        background-color: white;
+        color:#4F46E5;
+    }
+    to{
+        background-color:  #4F46E5;;
+        color:white;
+    }
+}
+button:hover{
+    animation-name: color_changing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}

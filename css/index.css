@@ -1,0 +1,133 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+nav li
+{
+    list-style-type: none;
+}
+nav img
+{
+    width: 25%;
+}
+nav
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav #menu{
+    width: 35px;
+}
+nav #logo{
+width: 85px;
+}
+#top{
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: calc(100vh - 88.25px);
+    border-radius: 20px;
+}
+
+#top h1{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 85%;
+}
+#top p{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+}
+
+#start{
+    position: relative;
+    display: inline-block;
+    margin-top: 15vh;
+    font-size: 18px;
+    background-color: #4F46E5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 1234px;
+    left:50%;
+    transform: translateX(-50%)
+}
+
+@keyframes glwoing
+{
+    from
+    {
+        box-shadow: 0 0 0px #4F46E5, 0 0 0px #4F46E5,
+        0 0 0px #4F46E5, 0 0 0px #4F46E5;
+        border: none
+    }
+    to
+    {
+        box-shadow: 0 0 4px #4F46E5, 0 0 30px #4F46E5,
+        0 0 40px #4F46E5, 0 0 150px #4F46E5;
+        border: none;
+    }
+}
+#start:hover{
+    animation: glwoing 1s forwards;
+    animation-play-state: running;
+}
+#benefits
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+    height: 100vh;
+    border-radius: 20px;
+}
+.benefit
+{
+    display: flex;
+    align-items: center;
+    background-color: rgba(226,232,240, 0.48);
+    border-radius: 20px;
+    height: 30vh;
+}
+.benefit h1
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+.benefit p, h1{
+    width: 75%;
+    margin:auto;
+}
+#interactive_lessons{
+    text-align: center;
+}
+.benefit_image img{
+    width: 15vw;
+}
+
