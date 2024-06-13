@@ -1,0 +1,77 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+nav li
+{
+    list-style-type: none;
+}
+nav img
+{
+    width: 25%;
+}
+nav
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav #menu{
+    width: 35px;
+}
+nav #logo{
+width: 85px;
+}
+main{
+    min-height: calc(100vh - 88.25px);
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    border-radius: 20px;
+}
+
+main h1{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 32px;
+    text-align: center;
+    color:#4F46E5;
+
+
+}
+main p
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+main img{
+    height: 220px;
+    display: block;
+    margin: auto;
+    margin-top: 3vh
+}
+footer{
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color:#4F46E5;
+}

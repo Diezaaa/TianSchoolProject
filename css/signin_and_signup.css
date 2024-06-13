@@ -114,3 +114,17 @@ button:hover{
     animation-duration: 1s;
     animation-fill-mode: forwards
 }
+footer{
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color:#4F46E5;
+}
