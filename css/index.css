@@ -133,7 +133,7 @@ width: 85px;
 
 footer{
     border-radius: 20px 20px 0px 0px;
-    height: 220px;
+    width: 90%;
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
     height: 120px;

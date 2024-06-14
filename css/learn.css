@@ -1,0 +1,125 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+nav li
+{
+    list-style-type: none;
+}
+nav img
+{
+    width: 25%;
+}
+nav
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav #logo{
+    width: 85px;
+}
+nav #progress_percents{
+}
+#top{
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: calc(100vh - 88.25px);
+    border-radius: 20px;
+}
+
+#top h1{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 85%;
+}
+#top p{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+}
+
+main{
+    overflow: auto;
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    min-height: calc(100vh - 88.25px);
+    border-radius: 20px;
+}
+
+
+.lesson {
+    background-color: #644dff;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 0 #4836bb;
+    filter: drop-shadow(0 15px 20px var(#654dff63));
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lesson img{
+    width: 25px;
+}
+
+.lesson:active {
+    transform: translateY(8px);
+    box-shadow: 0 0 0 #4836bb;
+    transition: all .1s ease;
+}
+
+.line{
+    background-color: #A5B4FC;
+    width: 5px;
+
+    margin: auto;
+    height: 20vh;
+
+}
+
+
+.lesson_description
+{
+    display: inline-flex
+}
+
+
+
+
+footer{
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color:#4F46E5;
+}
