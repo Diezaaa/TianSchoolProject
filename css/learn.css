@@ -3,15 +3,11 @@ body{
 
 }
 
-nav li
-{
-    list-style-type: none;
-}
-nav img
+header img
 {
     width: 25%;
 }
-nav
+header
 {
     width: 90%;
     margin:auto;
@@ -19,18 +15,38 @@ nav
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-}
-nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+nav{
+    position: sticky;
+    background-color: rgba(215, 220, 227, 0.48);
+    width: 90%;
+    height:70px;
+    bottom: 10px;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
 }
-nav #logo{
-    width: 85px;
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
-nav #progress_percents{
+
+nav div{
+    text-align: center;
 }
+
+
 #top{
     width: 90%;
     margin:auto;
@@ -68,19 +84,41 @@ main{
 }
 
 
+
 .lesson {
-    background-color: #644dff;
-    width: 55px;
-    height: 55px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 8px 0 #4836bb;
-    filter: drop-shadow(0 15px 20px var(#654dff63));
     margin: auto;
+    --b: #644dff;
+    --bb: #4836bb;
+    --bbb: #654dff63;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.125em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--b);
+    border: 2px solid var(--bb);
+    border-radius: .75rem;
+    box-shadow: 0 8px 0 var(--bb);
+    transition: all .1s ease;
 }
+
+#final_project
+{
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.lesson:active {
+    transform: translateY(8px);
+    transition: all .1s ease;
+}
+
 .lesson img{
     width: 25px;
 }
@@ -106,6 +144,9 @@ main{
     display: inline-flex
 }
 
+#first_lesson{
+    margin-top: 20px;
+}
 
 
 
@@ -115,7 +156,7 @@ footer{
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
     height: 120px;
-    margin-top: 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
