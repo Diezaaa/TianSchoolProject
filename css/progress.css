@@ -1,0 +1,142 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+header img
+{
+    width: 80px;
+}
+header
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    position: sticky;
+    background-color: rgba(215, 220, 227, 0.48);
+    width: 90%;
+    height:70px;
+    bottom: 10px;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+nav div{
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin:auto;
+    min-height:100vh
+}
+#stats{
+    height:70px;
+    display: flex;
+    gap: 20px;
+}
+#day_streak img{
+    width: 30px;
+}
+#day_streak{
+    flex: 1;
+    width: 50%;
+    background-color: rgba(215, 220, 227, 0.48);
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+#percents{
+    flex: 1;
+    background-color: rgba(215, 220, 227, 0.48);
+    height:70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.badges_title{
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: rgba(215, 220, 227, 0.48);
+
+}
+
+#no_badges
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.badge img{
+    width: 50px;
+    height: 50px;
+
+}
+
+#badges{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.badge{
+    flex-direction: column;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    width: 110px;
+    padding-bottom: 5px;
+    background-color: rgba(215, 220, 227, 0.48);
+    font-size: 14px;
+}
+.badge span{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+footer{
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    margin:auto;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color:#4F46E5;
+}

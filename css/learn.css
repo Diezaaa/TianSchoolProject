@@ -79,7 +79,7 @@ main{
     width: 90%;
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
-    min-height: calc(100vh - 88.25px);
+    min-height: 100vh);
     border-radius: 20px;
 }
 
