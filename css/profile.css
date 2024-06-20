@@ -7,6 +7,9 @@ header img
 {
     width: 80px;
 }
+#settings{
+    width: 28px;
+}
 header
 {
     width: 90%;
@@ -51,6 +54,30 @@ main{
     margin:auto;
     min-height:100vh
 }
+
+#avatar_and_bio{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#avatar_and_bio img{
+    width: 82px;
+    margin-bottom: 20px;
+}
+
+#avatar_and_bio h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+#avatar_and_bio p, h1{
+    width: 83%;
+}
+
 #stats{
     height:70px;
     display: flex;
