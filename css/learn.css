@@ -21,6 +21,7 @@ header
 }
 
 nav{
+    max-width: 800px;
     position: sticky;
     background-color: rgba(215, 220, 227, 0.48);
     width: 90%;
@@ -78,6 +79,7 @@ main{
     overflow: auto;
     width: 90%;
     margin:auto;
+    max-width: 800px;
     background-color: rgba(215, 220, 227, 0.48);
     min-height: 100vh;
     border-radius: 20px;
@@ -156,6 +158,7 @@ footer{
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
     height: 120px;
+    max-width: 800px;
 
     display: flex;
     align-items: center;

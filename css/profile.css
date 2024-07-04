@@ -24,6 +24,8 @@ header
 }
 
 nav{
+    max-width: 800px;
+
     position: sticky;
     background-color: rgba(215, 220, 227, 0.48);
     width: 90%;
@@ -50,6 +52,8 @@ nav div{
 }
 
 main{
+    max-width: 800px;
+
     width: 90%;
     margin:auto;
     min-height:100vh
@@ -69,10 +73,14 @@ main{
     margin-bottom: 20px;
 }
 
-#avatar_and_bio h1{
+
+#avatar_and_bio h1, #nickname{
     text-align: center;
+    margin-bottom: 10px;
+}
+
+#nickname{
     font-weight: bold;
-    margin-bottom: 8px;
 }
 #avatar_and_bio p, h1{
     width: 83%;
@@ -162,6 +170,8 @@ footer{
     height: 120px;
     display: flex;
     align-items: center;
+    max-width: 800px;
+
     justify-content: center;
 }
 footer span{

@@ -11,6 +11,10 @@ nav img
 {
     width: 25%;
 }
+main{
+    max-width: 800px;
+    margin:auto;
+}
 nav
 {
     width: 90%;
@@ -33,7 +37,6 @@ nav #logo{
 width: 85px;
 }
 #top{
-    width: 90%;
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
     height: calc(100vh - 88.25px);
@@ -101,7 +104,6 @@ width: 85px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90%;
     margin-right:auto;
     margin-left:auto;
     height: 100vh;
@@ -111,6 +113,7 @@ width: 85px;
 {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(226,232,240, 0.48);
     border-radius: 20px;
     height: 30vh;
@@ -120,18 +123,18 @@ width: 85px;
     font-weight: bold;
     font-size: 25px;
 }
-.benefit p, h1{
-    width: 75%;
-    margin:auto;
+.benefit_text{
+    width: 65%;
 }
 #interactive_lessons{
     text-align: center;
 }
 .benefit_image img{
-    width: 15vw;
+    width: 60px;
 }
 
 footer{
+    max-width: 800px;
     border-radius: 20px 20px 0px 0px;
     width: 90%;
     margin:auto;
@@ -141,6 +144,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 footer span{
     color:#4F46E5;
