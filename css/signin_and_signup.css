@@ -85,10 +85,9 @@ label{
     margin-bottom: 8px;
 }
 button{
-    width: 30vw;
+    width: 100%;
     margin: auto;
     height: 36px;
-    width: Hug (180px)px;
     padding: 16px 24px 16px 24px;
     border-radius: 1234px;
     background-color: #FFFFFF;
