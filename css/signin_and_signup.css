@@ -133,3 +133,34 @@ footer{
 footer span{
     color:#4F46E5;
 }
+/*Used for js + menu*/
+.remove-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.closed{
+    display: none;
+}
+
+#menu_slider{
+    font-size: 30px;
+    justify-content: center;
+}
+
+#menu_slider ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+#menu_slider ul a {
+    color: black;
+
+}
+
+
+#menu_slider li:hover{
+    text-decoration: underline;
+}
