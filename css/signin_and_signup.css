@@ -28,6 +28,7 @@ nav ul{
 }
 nav #menu{
     width: 35px;
+    cursor: pointer;
 }
 nav #logo{
 width: 85px;
@@ -38,7 +39,8 @@ main{
     width: 90%;
     margin:auto;
     background-color: rgba(215, 220, 227, 0.48);
-    height: calc(100vh - 88.25px);
+    min-height: calc(100vh - 88.25px);
+    padding-bottom: 20px;
     border-radius: 20px;
 }
 main h1{
