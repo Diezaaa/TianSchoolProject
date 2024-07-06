@@ -1,0 +1,252 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+header img
+{
+    width: 80px;
+}
+header
+{
+    width: 90%;
+    margin:auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    max-width: 800px;
+    position: sticky;
+    background-color: rgba(215, 220, 227, 0.48);
+    width: 90%;
+    height:70px;
+    bottom: 10px;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+nav div{
+    text-align: center;
+}
+
+#continue {
+
+    --b: #644dff;
+    --bb: #4836bb;
+    --bbb: #654dff63;
+    cursor: pointer;
+    width: auto;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.125em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--b);
+    border: 2px solid var(--bb);
+    border-radius: .75rem;
+    box-shadow: 0 8px 0 var(--bb);
+    transition: all .1s ease;
+}
+#continue:active {
+    transform: translateY(8px);
+    box-shadow: 0 0 0 #4836bb;
+    transition: all .1s ease;
+}
+
+#progress_bar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 50px;
+    width: 90%;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    border-radius: 20px;
+    gap: 10px;
+    line-height: 24px;
+    font-size: 30px;
+}
+
+.completed_sublesson{
+    gap: 10px;
+    width: 5%;
+    height: 5px;
+    border-radius: 10px;
+
+    background-color: #2000ff;
+}
+
+.sublesson{
+    border-radius: 10px;
+    gap: 10px;
+    width: 5%;
+    height: 5px;
+    background-color: #7c7894;
+}
+
+main{
+    background-color: rgba(215, 220, 227, 0.48);
+    width: 90%;
+    margin:auto;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+#continue{
+    display: block;
+}
+
+main{
+    background-color: rgba(215, 220, 227, 0.48);
+    width: 90%;
+    margin:auto;
+    max-width: 800px;
+    border-radius: 20px;
+    height: calc(100vh - 138.25px);
+
+}
+
+#inner{
+    align-content: center;
+    width: 75%;
+    min-height: calc(100vh - 138.25px);
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+#tab{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    height: 35px;
+    color: white;
+    background-color: #6B21A8;
+    border-radius:  10px 10px 0 0;
+}
+
+#tab_lang{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#tab_lang span{
+    margin-left: 8px;
+}
+#tab img{
+    width: 15px;
+}
+
+#code{
+    min-height: 200px;
+    background-color: #312E81;
+}
+
+#code textarea{
+    margin-top: 8px;
+    margin-left: 8px;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: #312E81;
+    border: none;
+    color: white;
+    padding: 0;
+    min-height: 200px;
+    width: calc(100% - 16px);
+
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+#code textarea:focus{
+    border: none;
+}
+
+#run{
+    width: 100%;
+    height: 35px;
+    background-color: #6B21A8;
+    border-radius:  0 0 10px 10px;
+    display: flex;
+    justify-content: right;
+}
+
+#output{
+    min-height: 80px;
+    background-color: #312E81;
+}
+
+#output p{
+    background-color: #6B21A8;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: white;
+    padding-left: 8px;
+}
+
+#run button{
+    height: 100%;
+    background-color: #C084FC;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 0 0 10px 0;
+}
+
+#editor_window{
+    width: 100%;
+    min-height: 200px;
+}
+footer{
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    background-color: rgba(215, 220, 227, 0.48);
+    height: 120px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color:#4F46E5;
+}
